@@ -5,9 +5,9 @@ model = whisper.load_model('base.en')
 
 option = whisper.DecodingOptions(language='en',fp16 = False )
 
-result = model.transcribe('./familyguyclip.mp4')
+result = model.transcribe(' ') #give path to file in quotes
 
-save_target = 'text.txt'
+save_target = 'file_name.txt'
 
 with open(save_target,'w') as file:
     for indx, segment in enumerate(result['segments']):
