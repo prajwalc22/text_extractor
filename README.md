@@ -8,7 +8,7 @@ Before you start, ensure you have the following:
 
 - Python 3.x installed
 - Pip (Python package manager)
-- FM-Impact installed (a command-line tool for audio and video processing)
+- FFmpeg-Impact installed (a command-line tool for audio and video processing)
 
 
 ### Install OpenAi-Whisper
